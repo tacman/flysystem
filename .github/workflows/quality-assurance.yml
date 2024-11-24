@@ -57,8 +57,8 @@ jobs:
             phpstan: false
             phpunit-flags: '--no-coverage'
           - php: '8.4'
-            experimental: true
-            phpstan: false
+            experimental: false
+            phpstan: true
             phpunit-flags: '--no-coverage'
     steps:
       - uses: actions/checkout@v4
